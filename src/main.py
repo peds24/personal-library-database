@@ -1,6 +1,18 @@
 from book_manager import add_book_manual, fetch_and_add_book, add_from_file
 def main():
-    print("Welcome Pedro's Library Database!")
+    """
+    Main function to interact with Users Library Database.
+
+    This function provides a command-line interface with the following options:
+    1. Add a book manually by entering the title, author, category, and location.
+    2. Add a book by fetching metadata using the ISBN and specifying the location.
+    3. Add books from a file by providing the file path.
+    4. Exit the program.
+
+    Usage:
+    Run the script and follow the on-screen prompts to manage the library database.
+    """
+    print("Welcome to [Insert Name] Library Database!")
     while True:
         print("\nOptions:")
         print("1. Add a book manually")
